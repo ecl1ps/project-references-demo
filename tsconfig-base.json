@@ -9,6 +9,7 @@
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
         "composite": true,
-        "outDir": "./lib"
+        "outDir": "./lib",
+        "moduleResolution": "node"
     }
 }
