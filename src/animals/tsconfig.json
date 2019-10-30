@@ -1,6 +1,7 @@
 {
   "extends": "../../tsconfig-base.json",
   "compilerOptions": {
+    "outFile": "../../lib/animals/animals.bundle.js",
   },
   "references": [
     { "path": "../core" }

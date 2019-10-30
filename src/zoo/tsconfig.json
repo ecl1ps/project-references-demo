@@ -1,6 +1,7 @@
 {
   "extends": "../../tsconfig-base.json",
   "compilerOptions": {
+    "outFile": "../../lib/zoo/zoo.bundle.js",
     "paths": {
       "@animals": ["./animals"],
       "@animals/*": ["./animals/*"],

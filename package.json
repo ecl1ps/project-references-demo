@@ -4,8 +4,8 @@
   "description": "The structure of this repo is as follows:",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -b -v",
-    "build:force": "tsc -b -v -f",
+    "build": "tsc -b -v --traceResolution",
+    "build:force": "npm run build -- -f",
     "clean": "tsc -b --clean"
   },
   "repository": {

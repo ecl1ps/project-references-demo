@@ -1,5 +1,8 @@
 import Animal from './animal';
-import { makeRandomName } from '../core/utilities';
+import { makeRandomName } from 'core/utilities';
+
+// Not working with outFile
+//import { makeRandomName } from '../core/utilities';
 
 export interface Dog extends Animal {
     woof(): void;
