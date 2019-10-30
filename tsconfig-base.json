@@ -2,12 +2,13 @@
     "compilerOptions": {
         "declaration": true,
         "target": "es5",
-        "module": "commonjs",
+        "module": "amd",
         "strict": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
-        "composite": true
+        "composite": true,
+        "outDir": "./lib"
     }
 }
